@@ -1,0 +1,166 @@
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(121, 159, 240);
+}
+
+h1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(121, 159, 240);
+    border-color: white;
+    border-radius: 5px;
+    border: solid;
+}
+
+.rouge {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+    transition-timing-function: ease-in;
+}
+
+.rouge:hover {
+    width: 300px;
+}
+
+.vert {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 187, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: width 1s, height 2s;
+    transition: width 1s, height 2s;
+    transition-timing-function: linear;
+}
+
+.vert:hover {
+    width: 300px;
+}
+
+.noir {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: width 5s, height 10s;
+    transition: width 5s, height 10s;
+    transition-timing-function: ease-in-out;
+}
+
+.noir:hover {
+    width: 300px;
+}
+
+.bouton-01 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bouton-01:hover{
+    background-color: white;
+    -webkit-transition: background-color 1s linear;
+    transition: width background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+.bouton-02 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bouton-02:hover{
+    padding: 50px;
+    background-color: white;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    transition: all .2s ease-in-out;
+    transform: scale (1.5);
+}
+
+.bouton-03 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bouton-03:hover{
+    padding: 50px;
+    background-color: white;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    animation: shake 0.80s both;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  .card{
+    background: rgb(175, 170, 170);
+    color: black ;
+    bottom:0px;
+    width:250px;
+    height: 400px;
+    -webkit-transition-property: top, bottom;
+    -webkit-transition-duration: 0.5s;
+  }
+  .card:hover {
+    position: relative;
+    bottom: 250px;
+  }  
+
+.anglais {
+    width: 250px;
+    height: 150px;   
+}
